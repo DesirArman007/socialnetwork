@@ -1,0 +1,33 @@
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+.envrc
+
+# Go build and test artifacts
+bin/
+*.exe
+*.exe~
+*.test
+*.out
+coverage.out
+coverage.html
+
+# Air hot-reload artifacts
+tmp/
+build-errors.log
+
+# Dependency and tooling caches
+vendor/
+.cache/
+
+# IDE/editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+

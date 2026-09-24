@@ -1,0 +1,29 @@
+# Git and repository metadata
+.git/
+.gitignore
+
+# Local environment and secrets
+.env
+.env.*
+.envrc
+
+# Go build and hot-reload artifacts
+bin/
+tmp/
+*.exe
+*.test
+*.out
+coverage.out
+build-errors.log
+
+# Development-only configuration and files
+.air.toml
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Dependency/tool caches
+vendor/
+.cache/
+
